@@ -1,12 +1,12 @@
 # Hello World Web Page
 
 ## Overview
-A minimal, static web page that displays the text “Hello World” and shows the bundled image file `sample.jpg` on the home page. The layout is responsive and works on both desktop and mobile devices.
+A minimal, static web page that displays the text “Hello World” and shows the bundled image file sample2.jpg on the home page. The layout is responsive, accessible, and works on both desktop and mobile devices.
 
 ## Setup
 1. Ensure the following files are in the same directory:
    - index.html
-   - sample.jpg (provided in this project)
+   - sample2.jpg (provided in this project)
 
 2. No build tools are required. This is a plain HTML/CSS app.
 
@@ -17,8 +17,15 @@ A minimal, static web page that displays the text “Hello World” and shows th
 
 ## Usage
 - Open index.html directly in your browser, or visit http://localhost:8000 (if serving locally).
-- You should see the “Hello World” heading and the image from sample.jpg displayed below it.
-- Make sure sample.jpg remains in the same folder as index.html so the image loads correctly.
+- You should see the “Hello World” heading and the image from sample2.jpg displayed below it.
+- Make sure sample2.jpg remains in the same folder as index.html so the image loads correctly.
+
+## Improvements from Previous Version (Round 2)
+- Replaced sample.jpg with sample2.jpg across the code and documentation.
+- Updated alt text, figure markup, and ARIA to improve accessibility.
+- Enabled lazy-loading and async decoding for the image to improve performance.
+- Polished visuals with a responsive layout, improved color contrast, and light/dark mode support.
+- Clarified Setup and Usage instructions to reference sample2.jpg explicitly.
 
 ## License
 MIT License
